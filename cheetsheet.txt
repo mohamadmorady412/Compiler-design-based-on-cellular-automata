@@ -1,0 +1,6 @@
+To make the virtual environment easier, 
+open cmd, 
+go to the directory with the cd command, write python -m venv {name of venv}
+ and execute
+{name of venv}\Scripts\activate.
+To exit, write Deactivate
