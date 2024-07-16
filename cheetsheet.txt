@@ -4,3 +4,7 @@ go to the directory with the cd command, write python -m venv {name of venv}
  and execute
 {name of venv}\Scripts\activate.
 To exit, write Deactivate
+
+For the system, we first change the powershell code to comment prompt in VS and use the above commands
+
+If you forget to enter the name of the virtual machine in Get Ignore, leave it as venv
