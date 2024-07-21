@@ -33,10 +33,10 @@ def update_squares():
                         neighbors += 1
 
             if squares[(x, y)]:
-                # اگر مربع زنده است و کنار دو مربع دیگر نیست، پس از سه ثانیه می‌میرد
+                # If the square is alive and not next to two other squares, it dies after three seconds
                 new_squares[(x, y)] = neighbors == 2 or time.time() - squares[(x, y)] < 3
             else:
-                # اگر مربع مرده است و کنار سه مربع است، شلیک می‌شود
+                # If the square is dead and adjacent to three squares, it is fired
                 new_squares[(x, y)] = neighbors == 3
 
     return new_squares
